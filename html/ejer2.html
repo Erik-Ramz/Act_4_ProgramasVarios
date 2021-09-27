@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTL-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/JavaScript" src="../js/funciones.js"></script>
+        <link rel="stylesheet" href="../css/votos.css" type="text/css">
+        <title>Encuesta</title>
+    </head>
+    <body>
+        <nav id="menuPrincipal">
+            <h1>
+                <a class="opcionMenuPrincipal" href="../index.html">¡ JavaScript !</a>
+            </h1>
+        </nav>
+    <section class="contenido quienesomos">
+        <article class="contenedor">
+            <h3>Emición de voto</h3><br>
+            <input type="text" id="nombre" placeholder="Inserte su nombre"><br>
+            <p>Marque la sección de donde proviene</p>
+            <input type="radio" name="ubi" value="a"> Norte <br>
+            <input type="radio" name="ubi" value="b"> Centro <br>
+            <input type="radio" name="ubi" value="c"> Sur <br>
+            <br>
+            <p>Marque a que partido va a votar</p>
+            <input type="radio" name="vot" value="a"> Partido Rojo <br>
+            <input type="radio" name="vot" value="b"> Alianza Azul <br>
+            <br>
+            <input type="button" value="Mostrar" onclick="encuesta()">
+
+        </article>
+        <p id="resultado" class="res">RESULTADO</p>
+            
+    </section>
+    <footer>
+        Todos los derechos reservados - @ SI
+    </footer>
+</body>
+</html>  

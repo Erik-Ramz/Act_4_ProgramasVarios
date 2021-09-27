@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 0px;
+    background: url(../image/Fondo.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+#menuPrincipal{
+    background-color: rgb(4, 97, 4);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+.opcionMenuPrincipal{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 50px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5rem;
+}
+    .opcionMenuPrincipal:hover{
+        background-color: burlywood;
+        color: #000000;
+        font-size: 1.5rem;
+    }
+.contenido{
+    width: 100%;
+    /* height: 600px; */
+    overflow: hidden;
+    min-width: 320px;
+    margin-top:47px;
+}
+.quienesomos{
+    position: relative;
+    background-color: rgba(155, 59, 59, 0.603);
+    font-size: 1.5px;
+    /* color: black; */
+}
+
+.contenedor{
+    width: 300px;
+    border:solid 3px  #000000;
+    background-color: rgb(192, 87, 87);
+    background-size: cover;
+    padding: 10px;
+    margin: 10px auto;
+    color: black;
+    font-size: 1.5rem;
+
+}
+  
+
+.IF{
+    width: 150px;
+    height: 150px;
+    font-size: 2rem;
+    
+    margin: 10px;
+    color: #f3c623;
+    background-color: #10375c;
+    position: relative;
+}
+.ELSE{
+    width: 250px;
+    height: 250px;
+    font-size: 2rem;
+    
+    border-radius: 10px;
+    margin: 10px;
+    color: #10375c;
+    background-color: #f3c623;
+    display: inline-block;
+}
+
+select{
+    display: block;
+    margin: 10px auto;
+}
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    margin: 5px auto;
+    margin-bottom: 5px;
+}
+input[type="number"]{
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    margin: 5px auto;
+    margin-bottom: 5px;
+}
+input[type="button"], a{
+    width: 30%;
+    border: solid 1px #000000;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    display: block;
+    background-color: rgb(7, 97, 47);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    margin: 0 auto;
+    position: relative;
+}
+    input[type="button"]:hover, a:hover{
+        background-color: rgb(209, 167, 111);
+        color: #000000;
+        font-size: 1.0rem;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+/* #cajita{
+    width: 50px;
+    height: 50px;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    display: inline-block;
+    position: relative;
+} */
+
+
+footer{
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    font-size: 1rem;
+}
